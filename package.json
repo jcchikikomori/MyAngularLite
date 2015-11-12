@@ -1,15 +1,11 @@
 {
   "name": "MyAngularLite",
+  "private": false,
   "version": "0.1.0",
-  "authors": [
-    "johncyrillcorsanes@gmail.com"
-  ],
+  "description": "Angular for Starters",
+  "repository": "https://github.com/jccultima123/MyAngularLite",
   "license": "MIT",
-  "homepage": "",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-  ],
+  "author": "johncyrillcorsanes@gmail.com",
   "dependencies": {
     "angular": "1.3.x",
     "angular-cookies": "1.3.x",

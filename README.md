@@ -5,7 +5,7 @@ Lightweight version of AngularJS
 This is recommended for beginners in AngularJS. Build, Test and Go!
 
 # Instructions
-Just Install Dependecies first.. (nodejs and npm is required!)
+Just Install Dependecies first.. (npm is required!)
 
 Shell Command: `npm install`
 
