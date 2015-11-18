@@ -1,11 +1,11 @@
-# MyAngularLite
-Lightweight version of AngularJS
+# MyAngularLite -- res-demo branch
+My Responsive Demo prototype 1 for AngularJS
 
 # Purpose
 This is recommended for beginners in AngularJS. Build, Test and Go!
 
 # Instructions
-Just Install Dependecies first.. (npm is required!)
+Just Install Dependencies first.. (npm is required!)
 
 Shell Command: `npm install`
 

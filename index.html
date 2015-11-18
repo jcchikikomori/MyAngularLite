@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="myApp">
+	<head>
+		<title>MyAngularLite</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- STYLE -->
+		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<!-- LIB -->
+		<script src="node_modules/angular/angular.min.js" type="text/javascript"></script>
+		<script src="node_modules/angular-route/angular-route.min.js" type="text/javascript"></script>
+		<!-- YOUR APP -->
+		<script src="app.js" type="text/javascript"></script>
+	</head>
+	<!-- Initialize in <body> tag if you want only to initialize ng-app="" with empty class -->
+	<body ng-controller="mainController">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand">MyAngularLite</a>
+				</div>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div id="main">
+			<!-- this is where content will be injected -->
+			<div ng-view></div>
+		</div>
+		<footer class="text-center">
+			<p>This is based on a tutorial on <a href="http://scotch.io/tutorials/javascript/single-page-apps-with-angularjs-routing-and-templating">Scotch.io</a></p>
+		</footer>
+	</body>
+</html>
